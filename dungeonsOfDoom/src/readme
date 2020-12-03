@@ -1,0 +1,12 @@
+The user controls a player on a map.
+The objective is to collect all of the gold on the map, then exit on an exit tile.
+There is a bot that chases the player, if the bot is at the same location as the player, the player si captured and the
+    game is lost.
+Only the area of the map around the player can be viewed when the look command is inputted.
+
+Command Set:
+MOVE <direction> (where direction is N, S, E or W) - Moves the player in the given direction by one tile
+HELLO - Shows how much gold that is required to win
+GOLD - Shows how much gold the player owns
+LOOK - Shows 5x5 tiles around player on map
+EXIT - if player is on exit tile and has all goal required, the game ends
